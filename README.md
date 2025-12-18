@@ -47,8 +47,6 @@ Se ha implementado un sistema de **grab** que permite coger las piezas de ajedre
 
   * La pieza recupera automáticamente su **escala original**.
 
-Este sistema simula de forma intuitiva la manipulación de objetos en VR.
-
 ---
 
 ## Modelos 3D (GLB)
