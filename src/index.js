@@ -131,6 +131,74 @@ background.load(
   }
 );
 
+const goku = new GLTFLoader();
+goku.load(
+  "https://raw.githubusercontent.com/Evaay/models3d/main/goku_rigged__animated.glb",
+  (gltf) => {
+    const model = gltf.scene;
+    //model.scale.set(0.2, 0.3, 0.2);
+    model.scale.set(4, 4, 4);
+    //model.position.set(0, -8, 0);
+    model.position.set(45, 0, -10);
+    scene.add(model);
+
+    const mixer = new THREE.AnimationMixer(model);
+    const clips = gltf.animations;
+    clips.forEach((clip) => {
+      mixer.clipAction(clip).play();
+    });
+    const clock = new THREE.Clock();
+    const animate = () => {
+      requestAnimationFrame(animate)
+      renderer.render(scene, camera)
+      model.rotation.y += 0.01
+      if (mixer) {
+        mixer.update(clock.getDelta());
+      }
+    }
+    animate();
+  },
+  undefined,
+  (error) => {
+    console.error(error);
+  }
+);
+
+
+const goku2 = new GLTFLoader();
+goku2.load(
+  "https://raw.githubusercontent.com/Evaay/models3d/main/vegeta.glb",
+  (gltf) => {
+    const model = gltf.scene;
+    //model.scale.set(0.2, 0.3, 0.2);
+    model.scale.set(2500,2500,2500);
+    //model.position.set(0, -8, 0);
+    model.position.set(55, 0, -10);
+    scene.add(model);
+
+    const mixer = new THREE.AnimationMixer(model);
+    const clips = gltf.animations;
+    clips.forEach((clip) => {
+      mixer.clipAction(clip).play();
+    });
+    const clock = new THREE.Clock();
+    const animate = () => {
+      requestAnimationFrame(animate)
+      renderer.render(scene, camera)
+      model.rotation.y += 0.01
+      if (mixer) {
+        mixer.update(clock.getDelta());
+      }
+    }
+    animate();
+  },
+  undefined,
+  (error) => {
+    console.error(error);
+  }
+);
+
+
 Ammo(Ammo).then(start);
 
 async function start() {
