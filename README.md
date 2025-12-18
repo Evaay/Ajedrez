@@ -100,4 +100,4 @@ Esto permite ajustar la perspectiva y adaptarse a diferentes alturas o situacion
 
 ---
 
-*Proyecto desarrollado por Raúl .... y Eva Yuan Robaina Navarro*
+*Proyecto desarrollado por Raúl Sánchez Santamaría y Eva Yuan Robaina Navarro*
