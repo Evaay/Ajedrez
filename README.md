@@ -37,7 +37,7 @@ La cámara se encuentra dentro de un objeto tipo **dolly**, lo que facilita el d
 
 ## Interacción: Grab (agarrar objetos)
 
-Se ha implementado un sistema de **grab** que permite coger las piezas de ajedrez usando el **mando derecho**:
+Se ha implementado un sistema de **grab** que permite coger las piezas de ajedrez usando el **mando derecho**(o izquierdo dependiendo de que mando se conecte primero):
 
 * Al pulsar el **trigger** del mando derecho (`selectstart`), se activa la detección de agarre.
 * Si la mano se encuentra dentro del radio de acción de una pieza, esta se puede coger.
