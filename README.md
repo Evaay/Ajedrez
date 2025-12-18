@@ -50,7 +50,7 @@ Se ha implementado un sistema de **grab** que permite coger las piezas de ajedre
 
   * La pieza recupera automáticamente su **escala original**.
 
-[![Ver video de demostración](https://img.youtube.com/vi/TU_ID_VIDEO/maxresdefault.jpg)](https://youtu.be/r5qR9WZpfdc)
+[![Ver video de demostración](https://img.youtube.com/vi/r5qR9WZpfdc/maxresdefault.jpg)](https://youtu.be/r5qR9WZpfdc)
 ---
 
 ## Modelos 3D (GLB)
