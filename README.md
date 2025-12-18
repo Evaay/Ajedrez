@@ -103,4 +103,4 @@ Esto permite ajustar la perspectiva y adaptarse a diferentes alturas o situacion
 
 ---
 
-📌 *Proyecto desarrollado como mejora práctica utilizando Three.js, WebXR y Ammo.js.*
+*Proyecto desarrollado por Raúl .... y Eva Yuan Robaina Navarro*
