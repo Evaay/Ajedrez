@@ -8,7 +8,7 @@ Este proyecto consiste en una **mejora y ampliación de una práctica previa** b
 El objetivo principal es permitir al usuario **interactuar de forma natural con las piezas de ajedrez dentro de un entorno VR**, pudiendo cogerlas, moverlas, soltarlas y desplazarse libremente por la escena.
 
 Enlace a vídeo:
-Enlace a codeSandbox: https://9yxyy3.csb.app/
+Enlace a codeSandbox: https://sr6clw.csb.app/
 
 ---
 
