@@ -1,7 +1,7 @@
 # Ajedrez
 # Práctica Ajedrez en Realidad Virtual (VR)
 
-## 📌 Descripción general
+## Descripción general
 
 Este proyecto consiste en una **mejora y ampliación de una práctica previa** basada en un tablero de ajedrez en 3D desarrollado con **Three.js**. En esta versión se han incorporado **funcionalidades avanzadas de Realidad Virtual (VR)**, interacción mediante controladores, modelos 3D reales y un sistema de físicas realista utilizando **Ammo.js**.
 
@@ -9,18 +9,17 @@ El objetivo principal es permitir al usuario **interactuar de forma natural con 
 
 ---
 
-## 🧩 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * **Three.js** – Renderizado 3D
 * **WebXR** – Soporte para Realidad Virtual
 * **Ammo.js** – Motor de físicas
 * **GLTF / GLB** – Modelos 3D de las piezas
 * **Tween.js** – Animaciones suaves
-* **Lil-GUI** – Panel de control y depuración
 
 ---
 
-## 🕶️ Extensión de Realidad Virtual (VR)
+## Extensión de Realidad Virtual (VR)
 
 Se ha añadido compatibilidad completa con VR mediante **WebXR**, permitiendo:
 
@@ -33,7 +32,7 @@ La cámara se encuentra dentro de un objeto tipo **dolly**, lo que facilita el d
 
 ---
 
-## ✋ Interacción: Grab (agarrar objetos)
+## Interacción: Grab (agarrar objetos)
 
 Se ha implementado un sistema de **grab** que permite coger las piezas de ajedrez usando el **mando derecho**:
 
@@ -52,7 +51,7 @@ Este sistema simula de forma intuitiva la manipulación de objetos en VR.
 
 ---
 
-## ♟️ Modelos 3D (GLB)
+## Modelos 3D (GLB)
 
 Las piezas de ajedrez utilizan **modelos 3D en formato `.glb`**, uno para cada tipo de pieza:
 
@@ -69,7 +68,7 @@ Además, se ha añadido un **escenario 3D de fondo** (modelo externo) para enriq
 
 ---
 
-## ⚙️ Sistema de físicas con Ammo.js
+## Sistema de físicas con Ammo.js
 
 El proyecto emplea **Ammo.js** para dotar de realismo a la escena:
 
@@ -82,14 +81,14 @@ Esto permite una interacción mucho más natural y coherente con el entorno.
 
 ---
 
-## 🎮 Controles en VR
+## Controles en VR
 
-### 🕹️ Mando derecho
+### Mando derecho
 
 * **Trigger**: agarrar y soltar piezas.
 * Interacción directa con los objetos del tablero.
 
-### 🕹️ Mando izquierdo
+### Mando izquierdo
 
 * **Joystick**: desplazamiento horizontal por la escena (ejes X y Z).
 * **Botón inferior (X)**: bajar la altura del jugador.
@@ -97,7 +96,7 @@ Esto permite una interacción mucho más natural y coherente con el entorno.
 
 Esto permite ajustar la perspectiva y adaptarse a diferentes alturas o situaciones dentro del entorno VR.
 
-### 🔄 Reset de la escena
+### Reset de la escena
 
 * Con uno de los botones del mando contrario (X o Y, según el dispositivo), se puede **reiniciar el tablero** y volver al estado inicial.
 
